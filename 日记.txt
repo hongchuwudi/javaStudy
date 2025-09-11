@@ -1,0 +1,12 @@
+2025-9-1 main 中 String arg[]命令行参数
+2025-9-2 从代码组织和部署的角度分类程序分为三大类:JavaBean,servlet和 EJB
+         code point代码点的含义
+         字符集和编码的区分
+         utf-16和unicode中解决17分区问题
+         java中的标识符字符定义集:'字母','数字',_,$,......等等
+         标识符规范字符判断方法:Character.isJavaIdentifierStart和Character.isJavaIdentifierPart
+         strictfp控制main浮点数溢出问题
+         const在java中至今是保留字
+         strictMath控制精确浮点数数学运算
+         >> 由符号位填充 >>> 由0填充高位 没有 <<<
+        str.substring(beginIndex,endIndex),记忆混淆,第二个参数是结束不是个数
