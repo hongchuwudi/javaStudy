@@ -1,4 +1,5 @@
 2025-9-1 main 中 String arg[]命令行参数
+
 2025-9-2 从代码组织和部署的角度分类程序分为三大类:JavaBean,servlet和 EJB
          code point代码点的含义
          字符集和编码的区分
@@ -10,3 +11,6 @@
          strictMath控制精确浮点数数学运算
          >> 由符号位填充 >>> 由0填充高位 没有 <<<
         str.substring(beginIndex,endIndex),记忆混淆,第二个参数是结束不是个数
+
+2025-9-20 map.computeIfAbsent(key, k -> new ArrayList<>()).add(str); 用于判断是否存在key并返回value
+          map.values() 返回map中所有value的数组集合形式
